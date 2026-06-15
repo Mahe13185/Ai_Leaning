@@ -1,0 +1,13 @@
+Java is a programming language.
+
+Spring Boot is a framework used for building Java applications.
+
+Mahendra is learning AI Engineering.
+
+RAG stands for Retrieval Augmented Generation.
+
+JDBC is used to connect Java to databases.
+
+Spring Boot is a framework for building Java applications.
+
+Polymorphism allows one interface multiple implementations.
