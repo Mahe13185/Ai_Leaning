@@ -1,5 +1,5 @@
 import requests
-with open("../../Retrieval/Semantic-Search/knowledge.txt", "r") as file:
+with open("../../02-Retrieval/02-Semantic-Search/knowledge.txt", "r") as file:
     knowledge = file.read()
 while True:
     lines = knowledge.splitlines()
