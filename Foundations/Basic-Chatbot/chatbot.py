@@ -8,7 +8,7 @@ while True:
         continue
     if(prompt.lower() == "exit"):
         break;
-    
+
     history.append(f"User: {prompt}")
     full_prompt = "\n".join(history)
     response = requests.post(
