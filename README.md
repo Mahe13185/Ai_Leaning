@@ -1,56 +1,38 @@
-# AI Learning Journey 🚀
+# AI Engineering Learning Journey
 
-This repository contains my hands-on AI Engineering learning journey.
+This repository contains my hands-on journey of learning AI Engineering using local LLMs, embeddings, semantic search, Retrieval Augmented Generation (RAG), and AI Agents.
 
-## Technologies
-
-* Python
-* Ollama
-* Qwen 3
-* Sentence Transformers
-* Embeddings
-* Semantic Search
-* Retrieval Augmented Generation (RAG)
-
-## Concepts Covered
+## Completed Topics
 
 ### Foundations
-
-* Basic Chatbot
-* Conversational Memory
+- Basic Chatbot
+- Conversational Memory
 
 ### Retrieval
-
-* Embeddings
-* Cosine Similarity
-* Semantic Search
+- Embeddings
+- Semantic Search
 
 ### RAG
+- RAG Pipeline
 
-* Retrieval Augmented Generation
-* Context Injection
-* Local LLM Integration
+## Tech Stack
 
-## Current Progress
+- Python
+- Ollama
+- Qwen 3
+- Sentence Transformers
+- Git & GitHub
 
-✅ Basic Chatbot
+## Upcoming Topics
 
-✅ Conversational Memory
-
-✅ Embeddings
-
-✅ Semantic Search
-
-✅ First RAG Pipeline
-
-## Upcoming Projects
-
-* Top-K Retrieval
-* PDF RAG Chatbot
-* AI Resume Analyzer
-* AI Cybersecurity Assistant
-* AI Agent Systems
+- Top-K Retrieval
+- Vector Databases
+- PDF RAG
+- AI Agents
+- LangChain
+- LangGraph
+- Production AI Projects
 
 ## Goal
 
-Build production-ready AI projects and strengthen AI Engineering skills for placements and internships.
+Build strong AI Engineering projects for internships and placements.
