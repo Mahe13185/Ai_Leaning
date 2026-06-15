@@ -10,10 +10,13 @@ question = input("Enter Your Question: ")
 questionEmbedding = model.encode(question)
 
 scores = []
+sentencesEmbedding = []
 for sentence in sentences:
-    sentenceEmbedding = model.encode(sentence)
-    conSin_score = cos_sim(questionEmbedding,sentenceEmbedding).item()
-    scores.append( (conSin_score,sentences ))
+    sentencesEmbedding.append(model.encode(sentence))
+
+for i in range(len(sentencesEmbedding)):
+    conSin_score = cos_sim(questionEmbedding,sentencesEmbedding[i]).item()
+    scores.append( (conSin_score,sentences[i] ))
 scores = sorted(scores, reverse=True)
 top3 = scores[:3]
 

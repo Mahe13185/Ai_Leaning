@@ -1,0 +1,6 @@
+Java is a programming language.
+JDBC is used to connect Java to databases.
+MySQL is a relational database.
+JDBC drivers allow Java to communicate with MySQL.
+Spring Boot is a framework.
+Polymorphism allows one interface multiple implementations.
