@@ -1,101 +1,110 @@
 # 🚀 AI Engineering Learning Lab
 
-> Building AI Engineering skills through hands-on projects, Retrieval-Augmented Generation (RAG), AI Agents, Local LLMs, and Production-Ready Applications.
+> Building AI Engineering skills through hands-on projects, Retrieval-Augmented Generation (RAG), Vector Databases, AI Agents, Local LLMs, and Production-Ready Applications.
 
 ---
 
-## 🎯 Mission
+# 🎯 Mission
 
 This repository documents my journey from AI fundamentals to advanced AI engineering.
 
-The goal is not only to understand AI concepts but also to build practical systems that solve real-world problems using modern AI technologies.
-
-Every concept is implemented through code, documented with detailed notes, and organized into a structured learning path.
+The goal is not only to understand AI concepts but also to build practical AI systems using modern technologies such as RAG, Vector Databases, AI Agents, and Local LLMs.
 
 ---
 
-## 🛠 Tech Stack
+# 🛠 Tech Stack
 
-### AI & LLMs
+## AI & LLMs
 
 * Ollama
 * Qwen 3
 * Open Source LLMs
 
-### Retrieval & Search
+## Retrieval & Search
 
 * Sentence Transformers
 * Embeddings
 * Semantic Search
-* Cosine Similarity
 * Top-K Retrieval
-* Document Chunking
+* Vector Databases
 
-### Frameworks (Upcoming)
+## Vector Databases
+
+* FAISS
+
+## Frameworks (Upcoming)
 
 * LangChain
 * LangGraph
 * LlamaIndex
 * CrewAI
 
-### Development
+## Development
 
 * Python
 * Git
 * GitHub
-* PyCharm
 
 ---
 
-## 🗺 Learning Roadmap
+# 🗺 Learning Roadmap
 
-### 01 - Foundations
+## 01 - Foundations
 
-* Basic Chatbot ✅
-* Conversational Memory ✅
+* Basic Chatbot
+* Conversational Memory
 
-### 02 - Retrieval
+## 02 - Retrieval
 
-* Embeddings ✅
-* Semantic Search ✅
-* Top-K Retrieval ✅
-* Embedding Caching ✅
-* Document Chunking ✅
-* Chunked Semantic Search ✅
-* Vector Databases 🔜
+* Embeddings
+* Semantic Search
+* Top-K Retrieval
+* Embedding Caching
+* Document Chunking
+* Chunked Semantic Search
 
-### 03 - RAG
+## 03 - RAG
 
-* Basic RAG ✅
-* Multi-Chunk RAG 🔜
-* PDF RAG 🔜
-* Conversational RAG 🔜
+* Basic RAG
+* Multi-Chunk RAG
+* Source-Aware RAG
+* FAISS-Powered RAG
+* Conversational RAG
+* PDF RAG
 
-### 04 - AI Agents
+## 04 - Vector Databases
+
+* FAISS Basics
+* FAISS Semantic Search
+* FAISS Retrieval Pipeline
+* FAISS + RAG
+
+## 05 - AI Agents
 
 * Tool Calling
 * AI Agents
 * Multi-Agent Systems
 * Autonomous Agents
 
-### 05 - Projects
+## 06 - Projects
 
 * AI PDF Chatbot
 * Resume Analyzer
 * Research Assistant
-* Cybersecurity AI Assistant
-* Personal AI Agent
+* Personal AI Assistant
+* AI Interview Coach
+* Multi-Agent Assistant
 
 ---
 
-## 📚 Completed Concepts
+# 📚 Completed Concepts
 
-### Foundations
+## Foundations
 
 * [x] Basic Chatbot
 * [x] Conversational Memory
 
-### Retrieval
+## Retrieval
 
 * [x] Embeddings
 * [x] Semantic Search
@@ -104,36 +113,43 @@ Every concept is implemented through code, documented with detailed notes, and o
 * [x] Document Chunking
 * [x] Chunked Semantic Search
 
-### RAG
+## RAG
 
 * [x] Basic RAG
+* [x] Multi-Chunk RAG
+* [x] Source-Aware RAG
+
+## Vector Databases
+
+* [x] FAISS Basics
+* [ ] FAISS Semantic Search
+* [ ] FAISS + RAG
 
 ---
 
-## 🔥 Current Focus
+# 🔥 Current Focus
 
-Building Retrieval-Augmented Generation (RAG) systems using:
+Currently learning:
 
-* Ollama
-* Qwen 3
-* Sentence Transformers
-* Semantic Retrieval
-* Chunked Search
-* Context-Aware Prompting
+* FAISS
+* Vector Databases
+* Retrieval Systems
+* Semantic Search
+* Production RAG Pipelines
 
 ---
 
-## 📂 Repository Structure
+# 📂 Repository Structure
 
 ```text
 AI-Learning
-│
+
 ├── 01-Foundations
 │   ├── 01-Basic-Chatbot
 │   └── 02-Conversational-Memory
 │
 ├── 02-Retrieval
-│   ├── 01-Embeddings-Basics
+│   ├── 01-Embeddings
 │   ├── 02-Semantic-Search
 │   ├── 03-TopK-Retrieval
 │   ├── 04-Embedding-Caching
@@ -141,29 +157,50 @@ AI-Learning
 │   └── 06-Chunked-Semantic-Search
 │
 ├── 03-RAG
-│   └── 01-Basic-RAG
+│   ├── 01-Basic-RAG
+│   ├── 02-MultiChunk-RAG
+│   └── 03-Source-Aware-RAG
 │
-└── README.md
+├── 04-Vector-Databases
+│   ├── 01-FAISS
+│   └── 02-FAISS-Semantic-Search
+│
+├── README.md
+└── requirements.txt
 ```
 
 ---
 
-## 🎯 Long-Term Goal
+# 🎯 Learning Philosophy
 
-Develop production-ready AI applications and build a strong portfolio for internships and software engineering roles focused on AI.
+This repository focuses on:
 
-The ultimate objective is to become an AI Engineer capable of designing, building, and deploying intelligent systems using modern AI technologies.
+* Learning by Building
+* Writing Code from Scratch
+* Understanding Concepts Deeply
+* Creating Professional Documentation
+* Preparing for Real-World AI Engineering
+
+Every topic contains:
+
+* Source Code
+* Notes
+* Examples
+* Interview Questions
+* Explanations
 
 ---
 
-## 📈 Progress Tracker
+# 📈 Progress Tracker
 
 ```text
 Foundations       ██████████ 100%
 
 Retrieval         ██████████ 100%
 
-RAG               ██░░░░░░░░  20%
+RAG               █████████░  75%
+
+Vector Databases  ███░░░░░░░  20%
 
 AI Agents         ░░░░░░░░░░   0%
 
@@ -172,26 +209,19 @@ Projects          ░░░░░░░░░░   0%
 
 ---
 
-## 🚀 Current Milestone
+# 🎯 Long-Term Goal
 
-```text
-Completed:
-✓ Foundations
-✓ Retrieval Systems
-✓ Basic RAG
+Build production-ready AI applications and create a strong portfolio for:
 
-Next:
-→ Multi-Chunk RAG
-→ Vector Databases
-→ AI Agents
-```
+* AI Engineering Internships
+* Software Engineering Roles
+* Backend Development Roles
+* AI Product Development
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
-**Mahendra Gampala**
+Mahendra Gampala
 
-Learning AI Engineering one project at a time.
-
-> "Learn → Build → Document → Repeat"
+Learning AI Engineering one project at a time 🚀
