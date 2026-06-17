@@ -8,7 +8,13 @@
 
 This repository documents my journey from AI fundamentals to advanced AI engineering.
 
-The goal is not only to understand AI concepts but also to build practical AI systems using modern technologies such as RAG, Vector Databases, AI Agents, and Local LLMs.
+The goal is not only to understand AI concepts but also to build practical AI systems using modern technologies such as:
+
+* Retrieval-Augmented Generation (RAG)
+* Vector Databases
+* Local LLMs
+* AI Agents
+* Production AI Pipelines
 
 ---
 
@@ -26,7 +32,7 @@ The goal is not only to understand AI concepts but also to build practical AI sy
 * Embeddings
 * Semantic Search
 * Top-K Retrieval
-* Vector Databases
+* Document Chunking
 
 ## Vector Databases
 
@@ -68,16 +74,14 @@ The goal is not only to understand AI concepts but also to build practical AI sy
 * Basic RAG
 * Multi-Chunk RAG
 * Source-Aware RAG
-* FAISS-Powered RAG
-* Conversational RAG
-* PDF RAG
 
 ## 04 - Vector Databases
 
 * FAISS Basics
 * FAISS Semantic Search
-* FAISS Retrieval Pipeline
-* FAISS + RAG
+* FAISS RAG
+* FAISS Source-Aware RAG
+* Persistent Vector Storage (Upcoming)
 
 ## 05 - AI Agents
 
@@ -122,20 +126,20 @@ The goal is not only to understand AI concepts but also to build practical AI sy
 ## Vector Databases
 
 * [x] FAISS Basics
-* [ ] FAISS Semantic Search
-* [ ] FAISS + RAG
+* [x] FAISS Semantic Search
+* [x] FAISS RAG
+* [x] FAISS Source-Aware RAG
 
 ---
 
 # 🔥 Current Focus
 
-Currently learning:
+Currently Learning:
 
-* FAISS
-* Vector Databases
-* Retrieval Systems
-* Semantic Search
+* Persistent Vector Storage
+* Advanced Retrieval Systems
 * Production RAG Pipelines
+* AI Agent Architectures
 
 ---
 
@@ -163,7 +167,9 @@ AI-Learning
 │
 ├── 04-Vector-Databases
 │   ├── 01-FAISS
-│   └── 02-FAISS-Semantic-Search
+│   ├── 02-FAISS-Semantic-Search
+│   ├── 03-FAISS-RAG
+│   └── 04-FAISS-Source-Aware-RAG
 │
 ├── README.md
 └── requirements.txt
@@ -171,41 +177,48 @@ AI-Learning
 
 ---
 
-# 🎯 Learning Philosophy
-
-This repository focuses on:
-
-* Learning by Building
-* Writing Code from Scratch
-* Understanding Concepts Deeply
-* Creating Professional Documentation
-* Preparing for Real-World AI Engineering
-
-Every topic contains:
-
-* Source Code
-* Notes
-* Examples
-* Interview Questions
-* Explanations
-
----
-
 # 📈 Progress Tracker
 
 ```text
-Foundations       ██████████ 100%
+Foundations        ██████████ 100%
 
-Retrieval         ██████████ 100%
+Retrieval          ██████████ 100%
 
-RAG               █████████░  75%
+RAG                ██████████ 100%
 
-Vector Databases  ███░░░░░░░  20%
+Vector Databases   ████████░░  80%
 
-AI Agents         ░░░░░░░░░░   0%
+AI Agents          ░░░░░░░░░░   0%
 
-Projects          ░░░░░░░░░░   0%
+Projects           ░░░░░░░░░░   0%
 ```
+
+---
+
+# 🧠 Key Concepts Learned
+
+### Retrieval
+
+* Text Embeddings
+* Semantic Similarity
+* Top-K Search
+* Chunking Strategies
+* Embedding Caching
+
+### RAG
+
+* Context Injection
+* Multi-Chunk Retrieval
+* Source Attribution
+* Grounded Generation
+
+### Vector Databases
+
+* Vector Storage
+* FAISS Indexes
+* Similarity Search
+* FAISS-Powered RAG
+* Source-Aware Retrieval
 
 ---
 
