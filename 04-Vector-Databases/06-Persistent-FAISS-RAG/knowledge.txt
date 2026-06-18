@@ -1,0 +1,5 @@
+Java is a programming language.
+JDBC is used to connect Java to databases.
+Spring Boot is a framework.
+RAG stands for Retrieval Augmented Generation.
+FAISS is a vector database library.
